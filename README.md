@@ -6,7 +6,7 @@ https://hub.docker.com/r/cschockaert/docker-npm-maven/
 #
 ## How to use
 
-latest docker image version is 1.0.0
+latest docker image version is 1.2.2
 
 ```
 docker run --rm -it cschockaert/danger-runner:latest /bin/bash
@@ -22,8 +22,7 @@ review:danger:
   image: cschockaert/danger-runner:latest
   stage: build
   variables:
-      GIT_DEPTH: ""
-      DANGER_GITLAB_API_TOKEN: "XXXXXXXX" #provided by gitlab secret key
+      #DANGER_GITLAB_API_TOKEN: "XXXXXXXX" #provided by gitlab secret key
       DANGER_GITLAB_HOST: "git.host.com"
       DANGER_GITLAB_API_BASE_URL: "https://git.host.com/api/v4"
   script:
