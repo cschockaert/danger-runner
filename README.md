@@ -6,7 +6,7 @@ https://hub.docker.com/r/cschockaert/docker-npm-maven/
 #
 ## How to use
 
-latest docker image version is 1.2.2
+latest docker image version is 1.2.3
 
 ```
 docker run --rm -it cschockaert/danger-runner:latest /bin/bash
